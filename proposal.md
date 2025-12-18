@@ -17,7 +17,7 @@ Phishing emails remain a major cybersecurity threat, exploiting human behavior t
 ## 4. Dataset Plan
 - **Source:** Kaggle – Phishing Email Dataset  
   https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset  
-- **Expected Size:** Thousands of email records (CEAS_08.csv)
+- **Expected Size:** Thousands of email records
 - **Target Attributes:** Email content indicators, sender-related features, phishing label
 - **Acquisition:** Publicly available dataset downloaded from Kaggle
 

@@ -1,0 +1,9 @@
+pandas>=1.2
+numpy
+scikit-learn
+mlxtend
+nltk
+matplotlib
+seaborn
+networkx
+jupyter

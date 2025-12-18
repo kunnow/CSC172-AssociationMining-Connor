@@ -51,7 +51,7 @@ The project follows a **data mining–oriented architecture**, focusing on data 
 Responsible for transforming raw email data into a format suitable for Association Rule Mining.
 
 **Process flow:**
-1. Load phishing email dataset (`CEAS_08.csv`)
+1. Load phishing email dataset
 2. Clean and filter relevant features
 3. Discretize and binarize attributes
 4. Construct transactional representations of emails

@@ -1,7 +1,7 @@
 # CSC172 Association Rule Mining – Progress Report
 
 **Project Title:** Discovering Behavioral Patterns in Phishing Emails Using Association Rule Mining
-**Student:** [Your Name], [Student ID]
+**Student:** Shir Keilah T. Connor, 2022-5474
 **Course:** CSC172 – Association Rule Mining
 **Repository:** [https://github.com/kunnow/CSC172-AssociationMining-Connor](https://github.com/kunnow/CSC172-AssociationMining-Connor)
 

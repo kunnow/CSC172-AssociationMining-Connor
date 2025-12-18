@@ -1,0 +1,40 @@
+
+# Python / Virtual Env
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+
+# Ignore initial raw source datasets (documentation only)
+data/raw/initial/*
+!data/raw/initial/.gitkeep
+
+# Ignore final combined dataset if it is large or sensitive
+# (comment this line out if your instructor requires the CSV)
+data/raw/final/phishing_email.csv
+
+# Ignore all processed/intermediate data
+data/interim/*
+!data/interim/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/top_rules.csv   # keep final rules output if submitting results
+
+# Reports / Figures
+reports/figures/*
+
+# Logs
+logs/
+*.log
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
