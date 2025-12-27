@@ -2,7 +2,7 @@
 **CSC172 Intelligent Systems Final Project**  
 *Mindanao State University – Iligan Institute of Technology*  
 
-**Student:** Shir Keilah Connor, 2022-5474
+**Student:** Shir Keilah Connor, 2022-5474  
 **Semester:** AY 2025–2026 Sem 1  
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org) [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626)](https://jupyter.org) [![Data%20Mining](https://img.shields.io/badge/Data%20Mining-Apriori-green)](#)
@@ -37,10 +37,10 @@ Phishing emails remain one of the most prevalent social-engineering threats, lev
 Phishing campaigns exploit predictable human behaviors and message artifacts to persuade recipients into disclosing credentials or executing unsafe actions. While classifiers detect phishing, they often lack interpretability. Association rule mining uncovers *interpretable* frequent co-occurrence patterns that explain how multiple cues combine in real phishing emails.
 
 ### Objectives
-- Clean and preprocess a large public phishing/ham email corpus.  
-- Engineer binary/categorical phishing indicators from text and metadata.  
-- Convert emails into transactions and run Apriori to extract frequent itemsets & association rules.  
-- Analyze rules by support, confidence, and lift and provide actionable observations.
+- Analyze phishing email features using exploratory data analysis (EDA).  
+- Transform phishing characteristics into transactional data.  
+- Apply the Apriori algorithm to extract frequent itemsets.  
+- Generate association rules that reveal behavioral phishing patterns.
 
 ---
 
@@ -201,8 +201,8 @@ CSC173-DeepCV-Connor/
 ---
 
 ## References
-[1] Agrawal, R., Imieliński, T., & Swami, A. “Mining Association Rules between Sets of Items in Large Databases,” SIGMOD, 1993.
-[2] Han, J., Kamber, M., & Pei, J. Data Mining: Concepts and Techniques, Morgan Kaufmann.
-[3] Abu-Nimeh, S., Nappa, D., Wang, X., & Nair, S. “A Comparison of Machine Learning Techniques for Phishing Detection,” ACM eCrime Research, 2007.
-[4] Sommer, R., & Paxson, V. “Outside the Closed World: On Using Machine Learning for Network Intrusion Detection,” IEEE S&P, 2010.
+[1] Agrawal, R., Imieliński, T., & Swami, A. “Mining Association Rules between Sets of Items in Large Databases,” SIGMOD, 1993.  
+[2] Han, J., Kamber, M., & Pei, J. Data Mining: Concepts and Techniques, Morgan Kaufmann.  
+[3] Abu-Nimeh, S., Nappa, D., Wang, X., & Nair, S. “A Comparison of Machine Learning Techniques for Phishing Detection,” ACM eCrime Research, 2007.  
+[4] Sommer, R., & Paxson, V. “Outside the Closed World: On Using Machine Learning for Network Intrusion Detection,” IEEE S&P, 2010.  
 [5] Kaggle — Phishing Email Dataset by Naser Abdullah Alam. https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset
